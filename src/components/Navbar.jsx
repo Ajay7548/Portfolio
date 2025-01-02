@@ -10,9 +10,10 @@ const Navbar = () => {
         {/* <img className="mx-2  w-16 h-16 rounded-full" src={logo} alt="logo" /> */}
       </div>
       <div className="m-4 px-4 cursor-pointer flex items-center justify-center gap-4 text-xl">
-        <FaGithub/>
-        <FaInstagram/>
-        <FaLinkedin/>
+        <span className='hidden lg:block text-neutral-150 hover:text-neutral-50'>Home</span>
+        <span className='hidden lg:block text-neutral-150 hover:text-neutral-50'>About</span>
+        <span className='hidden lg:block text-neutral-150 hover:text-neutral-50'>Skills</span>
+        <span className='hidden lg:block text-neutral-150 hover:text-neutral-50'>Projects</span>
         <button className="border-2  text-sm md:text-lg p-3 rounded-md ">Lets Connect</button>
       </div>
 
